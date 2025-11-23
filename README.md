@@ -49,7 +49,7 @@ Simple, fair, and challenging enough for casual play.
 
 ⸻
 
-# 🚀 Getting Started
+## 🚀 Getting Started
 
 Requirements
 Python 3.8+
@@ -67,13 +67,13 @@ Running the Game
 python3 palace.py
 ```
 
-# 🧠 Game Structure
+## 🧠 Game Structure
 
 Deck Representation
 
 Cards are stored as tuples:
 ("Rank", "Suit")
-# Example: ("Ace", "Spades")
+## Example: ("Ace", "Spades")
 The deck is built with a list comprehension and then manually shuffled.
 
 Core Logic
@@ -105,7 +105,7 @@ Hand → Face-Up → Face-Down → Win
 Each phase must be completely emptied before moving to the next.
 
 
-# 🏆 Winning
+## 🏆 Winning
 
 A player wins upon having:
 
@@ -119,7 +119,7 @@ If the opponent reaches this first, the game ends with their victory.
 
 ⸻
 
-# 🔧 Future Enhancements
+## 🔧 Future Enhancements
 
 Possible extensions:
 - More advanced CPU logic
@@ -131,7 +131,7 @@ Possible extensions:
 
 ⸻
 
-# 📄 License
+## 📄 License
 
 This project is released under the MIT License.
 
