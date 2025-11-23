@@ -19,7 +19,7 @@ This implementation supports all standard Palace mechanics:
 - Always maintain at least 3 cards in hand (while draw pile exists)
 - Effective top card ignores 3s stacked on top
 
-- ✔️ Turn Phases
+✔️ Turn Phases
 
 Each player must clear their cards in order:
 - Hand cards
