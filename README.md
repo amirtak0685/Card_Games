@@ -51,7 +51,7 @@ Simple, fair, and challenging enough for casual play.
 
 # 🚀 Getting Started
 
-- Requirements
+Requirements
 Python 3.8+
 
 Installation
@@ -62,23 +62,27 @@ cd Card_Games
 ```
 
 Running the Game
-- python3 palace.py
+
+```bash
+python3 palace.py
+```
 
 # 🧠 Game Structure
 
-- Deck Representation
+Deck Representation
 
 Cards are stored as tuples:
 ("Rank", "Suit")
 # Example: ("Ace", "Spades")
 The deck is built with a list comprehension and then manually shuffled.
 
-- Core Logic
+Core Logic
 
-- Valid Moves
+Valid Moves
+
 All card-play logic is handled by:
 
-can_play(card, effective_top_card)
+- can_play(card, effective_top_card)
 
 This accounts for:
 - Shadowing 3s
@@ -92,11 +96,12 @@ If multiple 3s are stacked on the pile, the game finds the first non-3 card belo
 
 ⸻
 
-- Turn Flow
+Turn Flow
 
 Both player and computer follow the same progression:
 
 Hand → Face-Up → Face-Down → Win
+
 Each phase must be completely emptied before moving to the next.
 
 
