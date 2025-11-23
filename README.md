@@ -30,7 +30,7 @@ Face-down cards are a gamble — if the flipped card is illegal, the player must
 
 ⸻
 
-- ✔️ Custom Shuffle
+✔️ Custom Shuffle
 
 The deck can be shuffled using:
 - Fisher–Yates (perfect randomness)
@@ -38,7 +38,7 @@ The deck can be shuffled using:
 
 ⸻
 
-- ✔️ Computer Opponent
+✔️ Computer Opponent
 
 The built-in CPU:
 - Follows the same rules as the player
